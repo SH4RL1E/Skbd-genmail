@@ -12,7 +12,7 @@ def generate_random_string(length):
 
 def create_1secmail_account(domain):
     fake = Faker()
-    username = "Wiegine"+generate_random_string(10).lower()
+    username = "siarliy"+generate_random_string(10).lower()
     email = f"{username}@{domain}".lower()  
     password = fake.password()
     birthday = fake.date_of_birth(minimum_age=18, maximum_age=45)
